@@ -82,10 +82,47 @@ continuous ages, in the amount of 60K.</p>
 
 <p>This section is being updated.</p>
 
-<pre><code>Method          |      MAE (MORPH II)      |       MAE (AFAD)          
---------------------------------------------------------------------      
-Baseline CNN    |        3.62736        |       placeholder              
-</code></pre>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>MAE on MORPH II</th>
+<th>MAE on AFAD</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>BIFS+LSVR</td>
+<td>4.31</td>
+<td>4.13</td>
+</tr>
+<tr>
+<td>BIFS+CCA</td>
+<td>4.73</td>
+<td>4.40</td>
+</tr>
+<tr>
+<td>CNN+LSVR</td>
+<td>5.13</td>
+<td>5.56</td>
+</tr>
+<tr>
+<td>BIFS+OR-SVM</td>
+<td>4.21</td>
+<td>4.36</td>
+</tr>
+<tr>
+<td>BIFS+OHRank</td>
+<td>3.82</td>
+<td>3.84</td>
+</tr>
+<tr>
+<td>OURS</td>
+<td>pending</td>
+<td>pending</td>
+</tr>
+</tbody>
+</table>
 
 <h2>
 <a id="code" class="anchor" href="#code" aria-hidden="true"><span class="octicon octicon-link"></span></a>Code</h2>
